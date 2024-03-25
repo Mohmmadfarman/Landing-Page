@@ -1,0 +1,309 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(wallpaperflare.com_wallpaper\ \(17\).jpg);
+    background-size: cover;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    width: 100%;
+
+}
+
+.nav a {
+
+    margin-top: 40px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+
+
+
+
+
+}
+
+#paroz {
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color: orange;
+}
+
+#input {
+    background-color: transparent;
+    height: 25px;
+    width: 120px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid white;
+}
+
+#button {
+    height: 26px;
+    width: 60px;
+    background-color: orange;
+    border: 0px;
+    border-radius: 0 4px 4px 0;
+    color: azure;
+
+}
+
+.form1 {
+    width: 650px;
+    height: 350px;
+    background-color: transparent;
+    margin-left: 60px;
+
+}
+
+.form2 {
+    width: 270px;
+    height: 350px;
+    background-color: rgb(10, 10, 11);
+    border-radius: 8px;
+    margin-left: 100px;
+   
+    display: flex;
+    justify-content: start;
+    box-shadow: 9px 10px 50px 10px;
+    
+    transition-duration: .7s;
+    transition-delay: .2s;
+    transition-timing-function: ease-in;
+   
+
+
+}
+.form2:hover{
+    
+   transform: translateY(15px);
+}
+
+.box {
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.img {
+    display: flex;
+    margin-left: 20px;
+    
+
+}
+
+.img img {
+    margin: 14px;
+
+}
+
+#img1 {
+    height: 30;
+    width: 30px;
+    border-radius: 60%;
+    
+}
+
+#img2 {
+    height: 30;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#img3 {
+    height: 30;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#img4 {
+    height: 30;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#button1 {
+    margin-left: 25px;
+    width: 220px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: azure;
+    color: orange;
+    border: 0px;
+    font-size: larger;
+    font-weight: 100px;
+}
+
+#a {
+    margin-left: 25px;
+    width: 220px;
+    height: 20px;
+    border: 0px;
+    border-bottom: 1px solid azure;
+    background-color: black;
+
+}
+
+#b {
+    margin-left: 25px;
+    width: 220px;
+    height: 20px;
+    border: 0px;
+    border-bottom: 1px solid azure;
+    background-color: black;
+
+}
+
+#button2 {
+    margin-left: 25px;
+    width: 220px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: orange;
+    color: black;
+    border: 0px;
+    font-size: larger;
+    font-weight: 100px;
+}
+
+#para {
+    margin-left: 60px;
+    color: azure;
+}
+
+#sign {
+    margin-left: 90px;
+    color: orange;
+}
+
+#span {
+    color: azure;
+}
+
+#para1 {
+    margin-left: 97px;
+    font-size: large;
+    font-weight: 50px;
+    color: azure;
+}
+
+::placeholder {
+    color: azure;
+}
+
+#web {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 100px;
+    color: azure;
+}
+
+#cor {
+    font-size: 30px;
+    font-weight: 100px;
+    color: azure;
+}
+
+#dev {
+    font-size: 40px;
+    font-weight: 100px;
+    color: orange;
+}
+
+.p1 {
+    font-size: large;
+    font-weight: 40px;
+    color: azure;
+    margin-bottom: 3px;
+}
+
+.p2 {
+    font-size: large;
+    font-weight: 40px;
+    color: azure;
+    margin-bottom: 3px;
+}
+
+.p3 {
+    font-size: large;
+    font-weight: 40px;
+    color: azure;
+}
+
+#join {
+    height: 40px;
+    width: 160px;
+    font-size: 1.3rem;
+    background-color: orange;
+    border-radius: 7px;
+    border: 0px;
+    font-weight: 500;
+}
+#join:hover{
+    box-shadow: 0 0 5px rgb(219, 193, 25), 0 0 25px rgb(219, 193, 25), 0 0 50px rgb(219, 193, 25), 0 0 100px rgb(219, 193, 25), 0 0 170px rgb(219, 193, 25);
+}
+img:hover{
+    box-shadow: 0 0 5px rgb(219, 193, 25), 0 0 25px rgb(219, 193, 25), 0 0 50px rgb(219, 193, 25), 0 0 100px rgb(219, 193, 25), 0 0 170px rgb(219, 193, 25);
+}
+
+
+::placeholder {
+    padding-left: 10px;
+}
+
+#home {
+    transition: all ease linear;
+    background-color: red;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+
+}
+#home:hover{
+    box-shadow: 0 0 5px rgb(25, 216, 219), 0 0 25px rgb(8, 216, 209), 0 0 50px rgb(19, 242, 242), 0 0 100px rgb(25, 203, 219), 0 0 170px rgb(25, 213, 219);
+}
+
+#about {
+    transition: all ease linear;
+    padding-left: 1px;
+
+}
+
+#contact {
+    transition: all ease linear;
+    padding-left: 1px;
+
+}
+
+#design {
+    transition: all ease linear;
+    padding-left: 1px;
+
+}
+
+#service {
+    transition: all ease linear;
+    padding-left: 1px;
+}
+
+#ss {
+    padding-left: 10px;
+}
